@@ -9,7 +9,7 @@ exactamente los mismos archivos. Solo necesitas ejecutarlo si cambias una flag
 o quieres modificar un reto; los archivos ya vienen generados en el repositorio.
 
 Uso (desde la raíz del repositorio):
-    python3 ctf/herramientas/generar_retos.py
+    python3 herramientas/generar_retos.py
 
 Requiere: Pillow (pip install pillow) para el reto 07.
 """
@@ -393,7 +393,7 @@ def main():
     reto06()
     reto07()
     reto08()
-    print("Listo. (Los retos 09 y 10 usan la app Flask: ctf/app-vulnerable/app.py)")
+    print("Listo. (Los retos 09 y 10 usan la app Flask: app-vulnerable/app.py)")
 
 
 if __name__ == "__main__":

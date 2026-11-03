@@ -8,9 +8,9 @@ No conoce las flags de antemano: las EXTRAE de los archivos de cada reto
 (igual que lo haría una persona), así que si un reto está roto, falla.
 
 Uso (desde la raíz del repositorio):
-    python3 ctf/herramientas/probar_todo.py
+    python3 herramientas/probar_todo.py
 
-Requiere: flask y pillow (pip install -r ctf/requirements.txt)
+Requiere: flask y pillow (pip install -r requirements.txt)
 """
 
 import base64

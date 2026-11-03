@@ -1,5 +1,7 @@
 # 🚩 CTF Centinela — mini CTF de ciberseguridad para principiantes
 
+[![retos](https://github.com/a1304rojasc/ctf-principiantes/actions/workflows/tests.yml/badge.svg)](https://github.com/a1304rojasc/ctf-principiantes/actions/workflows/tests.yml)
+
 Diez retos progresivos para dar tus primeros pasos en seguridad informática,
 **en español** y pensados para quien empieza desde cero. Cada reto tiene su
 enunciado, sus archivos, una pista y una solución explicada paso a paso.
@@ -48,7 +50,7 @@ python3 app-vulnerable/app.py     # http://127.0.0.1:5000  (Ctrl+C para parar)
 ## Estructura del proyecto
 
 ```
-ctf/
+ctf-principiantes/
 ├── README.md              ← este archivo
 ├── INTRODUCCION.md        ← cómo jugar (léelo primero)
 ├── requirements.txt
